@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<!-- 可变参arguments里面存的是一个数组 -->
+<script>
+function sum(){
+	var result=0;
+	for(var i=0;i<arguments.length;i++){
+		result+=arguments[i];
+	}
+	return result;
+}
+alert(sum(1,2,3,4,5,6,7))
+</script>
+</body>
+</html>

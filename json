@@ -1,0 +1,10 @@
+json与array的区别：
+	1.json的下标为字符串，数组为数字
+var json={a:1,b:2,c:3}
+json.a或者json['a']取得a的值1
+
+结论：一般array遍历使用for(var i=0;i<arr.length;i++)
+	  json遍历使用for in
+	  如 for (var i in json){
+	  	alert(json[i])
+	  }

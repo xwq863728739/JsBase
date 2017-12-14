@@ -1,0 +1,7 @@
+typeof：求数据类型
+1.number
+2.string
+3.boolean
+4.function
+5.object--typeof document
+6.undefined:变量未定义或者定义了没给东西

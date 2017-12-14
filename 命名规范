@@ -1,0 +1,11 @@
+1.添加类型前缀
+	a--array
+	o--object
+	i--int
+	fn--function
+	f--float
+	.
+	.
+	.
+2.首字母大写
+	如：document.getElementById

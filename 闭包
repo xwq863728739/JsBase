@@ -1,0 +1,10 @@
+1.简单理解
+子函数使用父函数的局部变量
+function a{
+	var a=12;
+	function b{
+		alert(a)
+	}
+	b();
+}
+a();

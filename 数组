@@ -1,0 +1,28 @@
+创建数组的两种方法：
+1.var arr=[1,2,3]
+2.var arr=new Array(1,2,3)
+
+对数组尾部进行操作
+pop()删除最后一个元素
+push()添加一个元素到末尾
+
+对数组头部进行操作
+unshift()删除第一个元素
+shift()添加一个元素到头部
+
+数组万能操作方法splice()
+1.删除  arr.splice(起点，长度)
+2.添加  arr.splice(起点，0，'a','b')
+3.替换  arr.splice(起点，长度，'a','b')
+
+join分隔符
+arr.join('-')
+
+concat数组拼接
+arr1.concat(arr2)
+
+sort数组排序，只能对字符串进行排序
+对数字排序:
+arr.sort(function(n1,n2){
+	return n1-n2;
+})

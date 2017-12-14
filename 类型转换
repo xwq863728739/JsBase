@@ -1,0 +1,15 @@
+显式类型转换（强制类型转换）
+	parseInt--字符串转整数
+	parseFloat--字符串转实数
+NaN--not a number
+isNaN判断结果是否为NaN，因为NaN不等于NaN
+如：if( isNaN(a.value) )
+
+隐式类型转换
+var a = '12'
+var b = 5
+a==b--true
+a===b--false
+==（先转换类型，再比较）
+===(全等，不转换类型直接比)
+-(相减，先转换类型)
